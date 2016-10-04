@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="edu_bstu_iipo_13_pri_lupachev.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:edu_bstu_iipo_13_pri_lupachev"
+    xmlns:system="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <system:String x:Key="Family">Лупачев</system:String>
+        <system:String x:Key="Name">Евгений</system:String>
+        <system:String x:Key="Group">13-ПРИ</system:String>
+        <system:String x:Key="E-mail">lupacheveugene@gmail.com</system:String>
+        <system:String x:Key="Number">89506988789</system:String>
+        
+    </Application.Resources>
+</Application>
