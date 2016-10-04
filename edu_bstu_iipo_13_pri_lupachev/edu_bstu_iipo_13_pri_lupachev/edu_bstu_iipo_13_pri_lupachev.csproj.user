@@ -7,6 +7,6 @@
     <ReferencePath>C:\Users\jon-a\Documents\Visual Studio 2015\Projects\Mobilki\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\Resources\</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <DeviceId>98CD6FA8-9114-4179-ACA3-38E5D23C77EE</DeviceId>
   </PropertyGroup>
 </Project>

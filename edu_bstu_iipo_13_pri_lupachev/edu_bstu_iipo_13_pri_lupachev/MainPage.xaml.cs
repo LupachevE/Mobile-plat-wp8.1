@@ -94,5 +94,10 @@ namespace edu_bstu_iipo_13_pri_lupachev
             mail.To.Add(sendTo);
             EmailManager.ShowComposeNewEmailAsync(mail);
         }
+
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SecondPage));
+        }
     }
 }

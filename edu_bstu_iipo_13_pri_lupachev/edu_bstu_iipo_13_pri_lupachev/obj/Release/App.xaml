@@ -10,6 +10,7 @@
         <system:String x:Key="Group">13-ПРИ</system:String>
         <system:String x:Key="E-mail">lupacheveugene@gmail.com</system:String>
         <system:String x:Key="Number">89506988789</system:String>
+        
     </Application.Resources>
 </Application>
 

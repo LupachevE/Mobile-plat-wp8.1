@@ -9,8 +9,15 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" x:Name="appBar" Height="20">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Переход на страницу 2" Click="AppBarButton_Click"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid>
-        <Button x:Name="callButton" Content="Набрать студента" HorizontalAlignment="Center" Margin="0,564,0,0" VerticalAlignment="Bottom" Click="button_Click"/>
+        <Button x:Name="callButton" Content="Набрать студента" HorizontalAlignment="Center" Margin="113,0,113,43" VerticalAlignment="Bottom" Click="button_Click"/>
         <TextBlock x:Name="familyLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top"/>
         <TextBlock x:Name="nameLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,80,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
         <TextBlock x:Name="groupLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,120,0,0" TextWrapping="Wrap" Text="Группа" VerticalAlignment="Top"/>
