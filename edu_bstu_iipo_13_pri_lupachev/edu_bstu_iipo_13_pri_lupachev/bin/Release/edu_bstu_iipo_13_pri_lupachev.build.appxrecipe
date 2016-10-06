@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\bin\Release\edu_bstu_iipo_13_pri_lupachev.exe">
       <PackagePath>edu_bstu_iipo_13_pri_lupachev.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\packages\SlideView.1.4.2\lib\wpa81\SlideView.Library.dll">
+      <PackagePath>SlideView.Library.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

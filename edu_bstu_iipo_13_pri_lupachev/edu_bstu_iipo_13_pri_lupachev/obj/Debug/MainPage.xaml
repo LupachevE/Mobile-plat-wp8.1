@@ -6,22 +6,31 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:system="http://schemas.microsoft.com/winfx/2006/xaml"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    mc:Ignorable="d">
 
+    <Page.Background>
+        <ImageBrush ImageSource="./Assets/SplashScreen.scale-100.png"/>
+    </Page.Background>
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" x:Name="appBar" Height="20">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='1' Label="Переход на страницу 2"                           />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid>
-        <Button x:ConnectionId='1' x:Name="callButton" Content="Набрать студента" HorizontalAlignment="Center" Margin="0,564,0,0" VerticalAlignment="Bottom"                     />
-        <TextBlock x:Name="familyLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top"/>
-        <TextBlock x:Name="nameLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,80,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
-        <TextBlock x:Name="groupLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,120,0,0" TextWrapping="Wrap" Text="Группа" VerticalAlignment="Top"/>
-        <TextBlock x:Name="emailLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,160,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top"/>
-        <TextBlock x:Name="numberLabel" FontSize="20" HorizontalAlignment="Left" Margin="20,200,0,0" TextWrapping="Wrap" Text="Номер" VerticalAlignment="Top"/>
-        <TextBlock x:Name="familyValue" FontSize="20" HorizontalAlignment="Right" Margin="0,40,20,0" TextWrapping="Wrap" Text="{StaticResource Family}" VerticalAlignment="Top"/>
-        <TextBlock x:Name="nameValue" FontSize="20" HorizontalAlignment="Right" Margin="0,80,20,0" TextWrapping="Wrap" Text="{StaticResource  Name}" VerticalAlignment="Top"/>
-        <TextBlock x:Name="groupValue" FontSize="20" HorizontalAlignment="Right" Margin="0,120,20,0" TextWrapping="Wrap" Text="{StaticResource Group}" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='2' x:Name="emailValue" FontSize="20" HorizontalAlignment="Right" Margin="0,160,20,0" TextWrapping="Wrap" Text="{StaticResource E-mail}" VerticalAlignment="Top"                           />
-        <TextBlock x:ConnectionId='3' x:Name="numberValue" FontSize="20" HorizontalAlignment="Right" Margin="0,200,20,0" TextWrapping="Wrap" Text="{StaticResource Number}" VerticalAlignment="Top"                            />
-        <TextBox x:ConnectionId='4' x:Name="inputTextBox" HorizontalAlignment="Center" Margin="20,0,20,218" TextWrapping="Wrap" Text="Введите номер" VerticalAlignment="Bottom" Width="360"                                                           InputScope="TelephoneNumber"/>
+        <Button x:ConnectionId='2' x:Name="callButton" Style="{StaticResource CentralButton}" Content="Набрать студента"                     />
+        <TextBlock x:Name="familyLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,40,0,0" Text="Фамилия" />
+        <TextBlock x:Name="nameLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,80,0,0" Text="Имя" />
+        <TextBlock x:Name="groupLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,120,0,0" Text="Группа" />
+        <TextBlock x:Name="emailLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,160,0,0" Text="E-mail" />
+        <TextBlock x:Name="numberLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,200,0,0" Text="Номер" />
+        <TextBlock x:Name="familyValue" Style="{StaticResource TextBlockMediumRightTop}" Margin="0,40,20,0" Text="{StaticResource Family}" />
+        <TextBlock x:Name="nameValue" Style="{StaticResource TextBlockMediumRightTop}" Margin="0,80,20,0" Text="{StaticResource  Name}" />
+        <TextBlock x:Name="groupValue" Style="{StaticResource TextBlockMediumRightTop}" Margin="0,120,20,0" Text="{StaticResource Group}" />
+        <TextBlock x:ConnectionId='3' x:Name="emailValue" Style="{StaticResource TextBlockMediumRightTop}" Margin="0,160,20,0" Text="{StaticResource E-mail}"                           />
+        <TextBlock x:ConnectionId='4' x:Name="numberValue" Style="{StaticResource TextBlockMediumRightTop}" Margin="0,200,20,0" Text="{StaticResource Number}"                            />
+        <TextBox x:ConnectionId='5' x:Name="inputTextBox" Style="{StaticResource CentralInputNumber}" Margin="20,0,20,218" Text="Введите номер"                                                           />
     </Grid>
 </Page>
 

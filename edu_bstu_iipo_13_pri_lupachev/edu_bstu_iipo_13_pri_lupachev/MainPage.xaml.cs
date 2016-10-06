@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Windows;
 using Windows.ApplicationModel.Email;
+using Windows.Phone.UI.Input;
 // Документацию по шаблону элемента "Пустая страница" см. по адресу http://go.microsoft.com/fwlink/?LinkId=391641
 
 namespace edu_bstu_iipo_13_pri_lupachev
@@ -24,16 +25,12 @@ namespace edu_bstu_iipo_13_pri_lupachev
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
-
-            //var i = edu_bstu_iipo_13_pri_lupachev.App.Current.Resources;
-            ////AppResources 
-
-            //i.ToString();
         }
 
         /// <summary>
@@ -97,6 +94,7 @@ namespace edu_bstu_iipo_13_pri_lupachev
 
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
+            //Frame.ForwardStack.Add(new PageStackEntry(typeof(MainPage), null, null));
             Frame.Navigate(typeof(SecondPage));
         }
     }

@@ -33,8 +33,10 @@ namespace edu_bstu_iipo_13_pri_lupachev
         {
             Frame frame = Window.Current.Content as Frame;
 
+            HardwareButtons.BackPressed -= HardwareButtons_BackPressed;
             if (frame.CanGoBack)
                 frame.GoBack();
+            e.Handled = true;
         }
 
         /// <summary>
@@ -44,6 +46,14 @@ namespace edu_bstu_iipo_13_pri_lupachev
         /// Этот параметр обычно используется для настройки страницы.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame frame = Window.Current.Content as Frame;
+
+            HardwareButtons.BackPressed -= HardwareButtons_BackPressed;
+            if (frame.CanGoBack)
+                frame.GoBack();
         }
     }
 }

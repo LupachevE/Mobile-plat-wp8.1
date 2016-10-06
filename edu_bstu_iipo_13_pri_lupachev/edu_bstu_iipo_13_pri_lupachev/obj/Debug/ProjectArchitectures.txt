@@ -1,1 +1,1 @@
-C:\Users\jon-a\Documents\Visual Studio 2015\Projects\Mobilki\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev.csproj;neutral
+C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev.csproj;neutral

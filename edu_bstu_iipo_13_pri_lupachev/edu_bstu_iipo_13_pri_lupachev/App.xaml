@@ -10,6 +10,29 @@
         <system:String x:Key="Group">13-ПРИ</system:String>
         <system:String x:Key="E-mail">lupacheveugene@gmail.com</system:String>
         <system:String x:Key="Number">89506988789</system:String>
-        
+        <Style x:Key="TextBlockMedium" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style x:Key="TextBlockMediumLeftTop" TargetType="TextBlock" BasedOn="{StaticResource TextBlockMedium}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+        </Style>
+        <Style x:Key="TextBlockMediumRightTop" TargetType="TextBlock" BasedOn="{StaticResource TextBlockMedium}">
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+        </Style>
+        <Style x:Key="CentralButton" TargetType="Button">
+            <Setter Property="Width" Value="230" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+        </Style>
+        <Style x:Key="CentralInputNumber" TargetType="TextBox">
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Width" Value="360"/>
+            <Setter Property="InputScope" Value="TelephoneNumber"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
     </Application.Resources>
 </Application>

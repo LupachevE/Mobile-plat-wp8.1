@@ -6,10 +6,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    Background="Black">
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" x:Name="appBar" Height="20">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='1' Label="Переход на страницу 1"                           />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid>
+        <Grid Opacity="0.6">
+            <Grid.Background>
+                <ImageBrush ImageSource="./Assets/SplashScreen.scale-100.png"/>
+            </Grid.Background>
+        </Grid>
 
+        <TextBlock x:Name="textBlock" Style="{StaticResource TextBlockMedium}" HorizontalAlignment="Left" Margin="28,54,0,0" TextWrapping="Wrap" Text="Second Page" VerticalAlignment="Top" Height="36" Width="341"/>
     </Grid>
 </Page>
 

@@ -1,1 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\edu_bstu_iipo_13_pri_lupachev.exe</file></Files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <file>\edu_bstu_iipo_13_pri_lupachev.exe</file>
+  <file>\SlideView.Library.dll</file>
+</Files>
