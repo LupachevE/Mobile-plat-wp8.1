@@ -69,3 +69,4 @@ C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bst
 C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\obj\Release\SecondPage.xbf
 C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\bin\Release\SlideView.Library.dll
 C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\obj\Release\edu_bstu_iipo_13_pri_lupachev.csproj.GenerateResource.Cache
+C:\Users\jon-a\Documents\Mobile-plat-wp8.1\edu_bstu_iipo_13_pri_lupachev\edu_bstu_iipo_13_pri_lupachev\obj\Release\edu_bstu_iipo_13_pri_lupachev.csprojResolveAssemblyReference.cache

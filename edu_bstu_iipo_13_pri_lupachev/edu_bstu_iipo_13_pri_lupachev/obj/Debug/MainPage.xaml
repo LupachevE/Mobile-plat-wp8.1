@@ -6,19 +6,21 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:system="http://schemas.microsoft.com/winfx/2006/xaml"
-    mc:Ignorable="d">
-
-    <Page.Background>
-        <ImageBrush ImageSource="./Assets/SplashScreen.scale-100.png"/>
-    </Page.Background>
+    mc:Ignorable="d"
+    Background="Black">
     <Page.BottomAppBar>
         <CommandBar IsSticky="True" x:Name="appBar" Height="20">
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:ConnectionId='1' Label="Переход на страницу 2"                           />
+                <AppBarButton x:ConnectionId='1' Label="Добавление ассоциации"                           />
             </CommandBar.SecondaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
     <Grid>
+        <Grid Opacity="0.6">
+            <Grid.Background>
+                <ImageBrush ImageSource="./Assets/SplashScreen.scale-100.png"/>
+            </Grid.Background>
+        </Grid>
         <Button x:ConnectionId='2' x:Name="callButton" Style="{StaticResource CentralButton}" Content="Набрать студента"                     />
         <TextBlock x:Name="familyLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,40,0,0" Text="Фамилия" />
         <TextBlock x:Name="nameLabel" Style="{StaticResource TextBlockMediumLeftTop}" Margin="20,80,0,0" Text="Имя" />

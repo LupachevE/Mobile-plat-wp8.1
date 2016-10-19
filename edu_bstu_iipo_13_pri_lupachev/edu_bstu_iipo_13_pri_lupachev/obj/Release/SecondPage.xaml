@@ -20,7 +20,8 @@
                 <ImageBrush ImageSource="./Assets/SplashScreen.scale-100.png"/>
             </Grid.Background>
         </Grid>
-
+        <Image x:Name="image" HorizontalAlignment="Left" Height="200" Margin="28,192,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:ConnectionId='2' x:Name="button" Content="Выбрать фото" HorizontalAlignment="Left" Margin="233,264,0,0" VerticalAlignment="Top"                     />
         <TextBlock x:Name="textBlock" Style="{StaticResource TextBlockMedium}" HorizontalAlignment="Left" Margin="28,54,0,0" TextWrapping="Wrap" Text="Second Page" VerticalAlignment="Top" Height="36" Width="341"/>
     </Grid>
 </Page>

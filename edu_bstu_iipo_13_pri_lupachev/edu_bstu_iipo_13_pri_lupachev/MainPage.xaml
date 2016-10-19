@@ -11,7 +11,7 @@
     <Page.BottomAppBar>
         <CommandBar IsSticky="True" x:Name="appBar" Height="20">
             <CommandBar.SecondaryCommands>
-                <AppBarButton Label="Переход на страницу 2" Click="AppBarButton_Click"/>
+                <AppBarButton Label="Добавление ассоциации" Click="AppBarButton_Click"/>
             </CommandBar.SecondaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
